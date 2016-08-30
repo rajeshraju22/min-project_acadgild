@@ -1,0 +1,44 @@
+﻿
+<body>
+    <div>
+        <img src="images/register_logo.jpg" style="height:150px;width:150px;border:dotted;float:right;" />
+    </div>
+
+    <p>
+        your name:
+        <input type="text" value="enter your name" />
+    </p>
+    <p>
+        your last name:
+        <input type="text" value="your last name" />
+
+    </p>
+    <p>
+        your password:
+        <input type="password" value="password" />
+    </p>
+    <h1>choose your account type</h1>
+    <p>
+        choose account type option:<br />
+        <input type="checkbox" />savings account <br />
+        <input type="checkbox" />current account <br />
+        <input type="checkbox" />demat account <br />
+    </p>
+    <p>
+        your gender:<br />
+        <input type="radio" />male <br />
+        <input type="radio" />female <br />
+    </p>
+    
+        <form action="demo_form.asp" method="get">
+            <input type="submit" value="submit" onclick="myregisterfunction()"  />
+            <input type="reset" value="reset" />
+        </form>
+    
+    <script>
+        function myregisterfunction()
+        {
+            alert("your details has register successfully")
+        }
+    </script>
+</body>
